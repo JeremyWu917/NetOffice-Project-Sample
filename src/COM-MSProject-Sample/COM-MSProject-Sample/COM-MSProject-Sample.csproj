@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+		<RootNamespace>COM_MSProject_Sample</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<COMReference Include="Microsoft.Office.Publisher.dll">
+			<Guid>0002123c-0000-0000-c000-000000000046</Guid>
+			<VersionMajor>2</VersionMajor>
+			<VersionMinor>3</VersionMinor>
+			<WrapperTool>tlbimp</WrapperTool>
+			<Lcid>0</Lcid>
+			<Isolated>false</Isolated>
+		</COMReference>
+		<COMReference Include="Microsoft.Office.MSProject.dll">
+			<Guid>a7107640-94df-1068-855e-00dd01075445</Guid>
+			<VersionMajor>4</VersionMajor>
+			<VersionMinor>9</VersionMinor>
+			<WrapperTool>tlbimp</WrapperTool>
+			<Lcid>0</Lcid>
+			<Isolated>false</Isolated>
+		</COMReference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="office">
+	    <HintPath>C:\Windows\assembly\GAC_MSIL\office\15.0.0.0__71e9bce111e9429c\OFFICE.DLL</HintPath>
+	  </Reference>
+	</ItemGroup>
+	
+	<ItemGroup>
+		<None Update="SampleProjectPlanning.mpp">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>

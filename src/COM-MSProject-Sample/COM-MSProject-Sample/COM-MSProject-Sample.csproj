@@ -7,14 +7,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<COMReference Include="Microsoft.Office.Publisher.dll">
+		<!--<COMReference Include="Microsoft.Office.Publisher.dll">
 			<Guid>0002123c-0000-0000-c000-000000000046</Guid>
 			<VersionMajor>2</VersionMajor>
 			<VersionMinor>3</VersionMinor>
 			<WrapperTool>tlbimp</WrapperTool>
 			<Lcid>0</Lcid>
 			<Isolated>false</Isolated>
-		</COMReference>
+		</COMReference>-->
 		<COMReference Include="Microsoft.Office.MSProject.dll">
 			<Guid>a7107640-94df-1068-855e-00dd01075445</Guid>
 			<VersionMajor>4</VersionMajor>

@@ -40,3 +40,17 @@ Sample about read from or write to MS Project 2016.
 <p>
 <a href="LICENSE">MIT License</a>
 </p>
+
+
+
+### Sponsor
+
+> If you think this repo is helpful to you and you happen to have extra money, then you might as well sponsor a cup of coffee for me, many thanks :pray:
+
+Wechat or Alipay :coffee:
+
+<p>
+    <img height="100" src="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/Wechat.png"/>
+    <img height="100" src="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/Alipay.png"/>
+</p>
+
